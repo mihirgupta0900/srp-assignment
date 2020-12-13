@@ -70,7 +70,7 @@ export const registerUser = async ({
 
 export const challenge = async (username: string, serverSession: any) => {
   if (typeof username === "undefined") {
-    throw new HTTPError("Username is undefined", 400); // TODO: check status code
+    throw new HTTPError("Username is undefined", 400);
   }
   try {
     // Get secret from db

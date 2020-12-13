@@ -761,11 +761,6 @@ arr-union@^3.1.0:
   resolved "https://registry.yarnpkg.com/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
   integrity sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=
 
-array-buffer-to-hex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/array-buffer-to-hex/-/array-buffer-to-hex-1.0.0.tgz#9c76e53010ef7bf7bf8a27ebbb41d24e1d83edf4"
-  integrity sha512-arycdkxgK1cj6s03GDb96tlCxOl1n3kg9M2OHseUc6Pqyqp+lgfceFPmG507eI5V+oxOSEnlOw/dFc7LXBXF4Q==
-
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
@@ -1126,7 +1121,7 @@ buffer-xor@^1.0.3:
   resolved "https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
   integrity sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk=
 
-buffer@^5.0.0, buffer@^5.0.2, buffer@^5.5.0:
+buffer@^5.0.2, buffer@^5.5.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0"
   integrity sha512-EHcyIPBQ4BSGlvjB16k5KgAJ27CIsHY/2JBmCRReo48y9rQ3MaUzWX3KVlBa4U7MyX02HdVj0K7C3WaB3ju7FQ==
@@ -1448,22 +1443,10 @@ crypto-browserify@^3.0.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-digest-sync@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/crypto-digest-sync/-/crypto-digest-sync-1.0.0.tgz#7dcdb12a54c19af8d138eb5f533f3c4c6bb4c0ed"
-  integrity sha512-UQBOB5z+HF4iA8shKQ3PPwhCmdFAihwcytD1Qh4uiz78x04cZZmKtZ1F1VyAjkrA8uEZqXt2tMXfj3dJHtcbng==
-
 crypto-js@^3.1.9-1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-3.3.0.tgz#846dd1cce2f68aacfa156c8578f926a609b7976b"
   integrity sha512-DIT51nX0dCfKltpRiXV+/TVZq+Qq2NgF4644+K7Ttnla7zEzqc+kjJyiB96BHNyUTBxyjzRcZYpUdZa+QAqi6Q==
-
-crypto-random-hex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/crypto-random-hex/-/crypto-random-hex-1.0.0.tgz#f15d4f4a8ce01e9d05e423390b3b98309c8e86de"
-  integrity sha512-1DuZQ03El13TRgfrqbbjW40Gvi4OKInny/Wxqj23/JMXe214C/3Tlz92bKXWDW3NZT5RjXUGdYW4qiIOUPf+cA==
-  dependencies:
-    array-buffer-to-hex "^1.0.0"
 
 cssom@^0.4.4:
   version "0.4.4"
@@ -1698,11 +1681,6 @@ emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
   integrity sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==
-
-encode-utf8@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/encode-utf8/-/encode-utf8-1.0.3.tgz#f30fdd31da07fb596f281beb2f6b027851994cda"
-  integrity sha512-ucAnuBEhUK4boH2HjVYG5Q2mQyPorvv0u/ocS+zhdw0S8AlHYY+GOFhP1Gio5z4icpP2ivFSvhtFjQi8+T9ppw==
 
 end-of-stream@^1.1.0:
   version "1.4.4"
@@ -2156,11 +2134,6 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
-
-hex-to-array-buffer@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hex-to-array-buffer/-/hex-to-array-buffer-1.1.0.tgz#17cb9613da06c3fefe4bc27436b5bcddf9d309c3"
-  integrity sha512-vvl3IM8FfT1uOnHtEqyjkDK9Luqz6MQrH82qIvVnjyXxRhkeaEZyRRPiBgf2yym3nweRVEfayxt/1SoTXZYd4Q==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -2929,15 +2902,15 @@ js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbn@^0.1.0, jsbn@~0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
-  integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
-
 jsbn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-1.1.0.tgz#b01307cb29b618a1ed26ec79e911f803c4da0040"
   integrity sha1-sBMHyym2GKHtJux56RH4A8TaAEA=
+
+jsbn@~0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
+  integrity sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
 
 jsdom@^16.4.0:
   version "16.4.0"
@@ -3625,11 +3598,6 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
-pad-start@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/pad-start/-/pad-start-1.0.2.tgz#23e5bab3e96446b62816cff6f150975f040d1b14"
-  integrity sha1-I+W6s+lkRrYoFs/28VCXXwQNGxQ=
-
 pako@~1.0.5:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/pako/-/pako-1.0.11.tgz#6c9599d340d54dfd3946380252a35705a6b992bf"
@@ -4127,19 +4095,6 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-secure-remote-password@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/secure-remote-password/-/secure-remote-password-0.3.1.tgz#8212e9411149e7fefaaa940a7e581de4e963e251"
-  integrity sha512-iEp/qLRfb9XYhfKFrPFfdeD7KVreCjhDKSTRP1G1nRIO0Sw1hjnVHD58ymOhiy9Zf5quHbDIbG9cTupji7qwnA==
-  dependencies:
-    array-buffer-to-hex "^1.0.0"
-    crypto-digest-sync "^1.0.0"
-    crypto-random-hex "^1.0.0"
-    encode-utf8 "^1.0.1"
-    hex-to-array-buffer "^1.1.0"
-    jsbn "^1.1.0"
-    pad-start "^1.0.2"
-
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
@@ -4355,14 +4310,6 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
-
-srp-js@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/srp-js/-/srp-js-0.2.1.tgz#2b2dc7f6439df14d593bf447f664d44ed1f14ace"
-  integrity sha512-mlj/D5+jJ7Q0AZrOvm8lzwzJehzcHHG6fLP8lJnaz6lKvwAggj4NHAeO144J6bbkH8SywIbiLxaKnQV+KcI6Rg==
-  dependencies:
-    buffer "^5.0.0"
-    jsbn "^0.1.0"
 
 sshpk@^1.7.0:
   version "1.16.1"
